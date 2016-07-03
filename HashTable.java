@@ -1,7 +1,7 @@
 
 
 public class HashTable {
-	private final static int TABLE_SIZE = 3000;
+	private final static int TABLE_SIZE = 2387;
 	 
     Entry[] table;
 
@@ -35,9 +35,6 @@ public class HashTable {
                 while (entry.getNext() != null && entry.getKey() == key){
                       entry = entry.getNext();
                 }
-//                if (entry.getKey() == key)
-//                      entry.setValue(value);
-//                else
                   entry.setNext(new Entry(key, value));
           }
     }

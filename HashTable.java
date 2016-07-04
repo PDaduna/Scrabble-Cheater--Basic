@@ -1,7 +1,7 @@
 
 public class HashTable {
 
-	private final static int TABLE_SIZE = 2387;
+	private final static int TABLE_SIZE = 500;
 
 	Entry[] table;
 

@@ -29,8 +29,10 @@ public class Scrabble {
 		for (String word : scrab.lineList) {
 			hashT.put(scrab.hash(word), word);
 		}
-
-		System.out.println(scrab.lookUp(hashT.table, "coolhal"));
+//		for(int i=1;i<hashT.table.length;i++){
+//			 System.out.println(hashT.table[i].toStrings());
+//		}
+		System.out.println(scrab.lookUp(hashT.table, "sretcht"));
 
 	}
 
